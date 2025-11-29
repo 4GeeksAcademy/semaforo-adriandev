@@ -1,5 +1,31 @@
-.on {
+.onyellow {
     box-shadow: 10px 10px 48px 48px rgba(242, 255, 0, 0.75);
     -webkit-box-shadow: 10px 10px 48px 48px rgba(242, 255, 0, 0.75);
     -moz-box-shadow: 10px 10px 48px 48px rgba(242, 255, 0, 0.75);
+}
+
+.onred {
+    box-shadow: 10px 10px 48px 48px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 48px 48px rgba(255, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 48px 48px rgba(255, 0, 0, 0.75);
+}
+
+.ongreen {
+    box-shadow: 10px 10px 48px 48px rgba(0, 255, 55, 0.75);
+    -webkit-box-shadow: 10px 10px 48px 48px rgba(0, 255, 55, 0.75);
+    -moz-box-shadow: 10px 10px 48px 48px rgba(0, 255, 55, 0.75);
+}
+
+.onpurple {
+    box-shadow: 10px 10px 48px 48px rgba(247, 0, 255, 0.75);
+    -webkit-box-shadow: 10px 10px 48px 48px rgba(247, 0, 255, 0.75);
+    -moz-box-shadow: 10px 10px 48px 48px rgba(247, 0, 255, 0.75);
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+.btn-purple:hover {
+    background-color: purple;
 }
