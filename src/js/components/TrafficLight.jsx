@@ -11,7 +11,7 @@ const TrafficLight = () => {
 			<div class="btn-group-vertical d-flex align-items" role="group" aria-label="Basic mixed styles example">
 				<button onClick={ () => setColor("red") } type="button" class={"btn btn-danger mb-3 rounded-circle " + (color == "red" ? "on" : "" )} style={{ width: "40px", height: "40px" }}></button>
 				<button onClick={ () => setColor("yellow") } type="button" class={"btn btn-warning mb-3 rounded-circle " + (color == "yellow" ? "on" : "" )}  style={{ width: "40px", height: "40px" }}></button>
-				<button onClick={ () => etColor("green") } type="button" class={"btn btn-success mb-3 rounded-circle " + (color == "green" ? "on" : "" )}  style={{ width: "40px", height: "40px" }}></button>
+				<button onClick={ () => setColor("green") } type="button" class={"btn btn-success mb-3 rounded-circle " + (color == "green" ? "on" : "" )}  style={{ width: "40px", height: "40px" }}></button>
 			</div>
 		</div>
 	</div>
